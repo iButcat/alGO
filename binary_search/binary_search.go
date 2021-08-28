@@ -17,7 +17,7 @@ func BinarySearch(sortedList []int, element int) int {
 			low = middle + 1
 		}
 	}
-	return -1
+	return 0
 }
 
 func main() {
